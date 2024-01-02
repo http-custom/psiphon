@@ -35,12 +35,14 @@ show_menu() {
     echo "4. INSTALAR BAD VPN 7300 (OPCIONAL)"
     
     echo "5. VER SERVICIOS EN EJECUCIÓN"
-
-    echo "6. DESINSTALAR BAD VPN Y DETENER SERVICIO"
     
-    echo "7. DESINSTALAR PSIPHON Y DETENER SERVICIO"
+    echo "6. REINICIAR PSIPHON"
 
-    echo "8. SALIR"
+    echo "7. DESINSTALAR BAD VPN Y DETENER SERVICIO"
+    
+    echo "8. DESINSTALAR PSIPHON Y DETENER SERVICIO"
+
+    echo "9. SALIR"
 
     echo "————————————————————————————————————————————————————"
 
@@ -293,13 +295,13 @@ main() {
                 
             5)
 
-                reboot_psiphon
+                show_services
 
                 ;;
                 
             6)
 
-                show_services
+                reboot_psiphon
 
                 ;;
 
