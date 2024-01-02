@@ -204,9 +204,9 @@ reboot_psiphon() {
 
     echo "REINICIANDO PSIPHON..."
     
-    echo "INGRESE KILL SEGUIDO DEL ID DEL SERVICIO"
+    echo " "
     
-    echo "EJEMPLO (KILL 613651) Y ENTER"
+    echo "¡COMPLETADO!"
 
     echo
 
