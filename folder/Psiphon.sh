@@ -190,6 +190,8 @@ show_services() {
 
     echo
 
+    apt install net-tools
+    
     netstat -tnpl
 
     wait_for_enter
