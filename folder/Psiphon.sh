@@ -340,3 +340,8 @@ main() {
 # Ejecutar la función principal
 
 main
+# Agrega el alias al archivo .bashrc
+echo "alias Psiphon='/root/Psiphon.sh'" >> ~/.bashrc
+
+# Recarga el archivo .bashrc para que el alias sea efectivo
+source ~/.bashrc
